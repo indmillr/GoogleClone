@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href="/favicon.svg" />
       </head>
-      <body className={inter.className}>
+      <body className="relative min-h-screen">
         {children}
         <Footer />
       </body>
